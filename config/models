@@ -1,0 +1,7 @@
+User
+    username Text
+    password Text
+    salt Text
+    UniqueUsername username
+
+ -- By default this file is used in Model.hs (which is imported by Foundation.hs)

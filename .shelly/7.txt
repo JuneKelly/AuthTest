@@ -1,0 +1,133 @@
+cd /home/shane/working/haskell/LocalTest/
+readfile /home/shane/working/haskell/LocalTest/sources.txt
+mkdir -p /home/shane/working/haskell/LocalTest/vendor
+cd /home/shane/working/haskell/LocalTest/vendor/wai
+echo 'git fetch origin'
+git fetch origin
+cd /home/shane/working/haskell/LocalTest/
+cd /home/shane/working/haskell/LocalTest/vendor/wai
+echo 'git checkout master'
+git checkout master
+echo 'git submodule foreach git pull origin master'
+git submodule foreach git pull origin master
+cd /home/shane/working/haskell/LocalTest/
+cd /home/shane/working/haskell/LocalTest/vendor/wai
+ls ./
+readfile /home/shane/working/haskell/LocalTest/vendor/wai/sources.txt
+cd /home/shane/working/haskell/LocalTest/vendor/wai/mime-types
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/wai
+cd /home/shane/working/haskell/LocalTest/vendor/wai/wai-eventsource
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/wai
+cd /home/shane/working/haskell/LocalTest/vendor/wai/wai-websockets
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/wai
+cd /home/shane/working/haskell/LocalTest/vendor/wai/warp-static
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/wai
+cd /home/shane/working/haskell/LocalTest/vendor/wai/wai-frontend-monadcgi
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/wai
+cd /home/shane/working/haskell/LocalTest/vendor/wai/wai-handler-scgi
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/wai
+cd /home/shane/working/haskell/LocalTest/vendor/wai/wai-handler-launch
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/wai
+cd /home/shane/working/haskell/LocalTest/vendor/wai/wai-handler-fastcgi
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/wai
+cd /home/shane/working/haskell/LocalTest/vendor/wai/wai-app-static
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/wai
+cd /home/shane/working/haskell/LocalTest/vendor/wai/warp-tls
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/wai
+cd /home/shane/working/haskell/LocalTest/vendor/wai/warp
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/wai
+cd /home/shane/working/haskell/LocalTest/vendor/wai/wai-extra
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/wai
+cd /home/shane/working/haskell/LocalTest/vendor/wai/wai-test
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/wai
+cd /home/shane/working/haskell/LocalTest/vendor/wai/wai
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/wai
+cd /home/shane/working/haskell/LocalTest/
+cd /home/shane/working/haskell/LocalTest/vendor/persistent
+echo 'git fetch origin'
+git fetch origin
+cd /home/shane/working/haskell/LocalTest/
+cd /home/shane/working/haskell/LocalTest/vendor/persistent
+echo 'git checkout master'
+git checkout master
+echo 'git submodule foreach git pull origin master'
+git submodule foreach git pull origin master
+cd /home/shane/working/haskell/LocalTest/
+cd /home/shane/working/haskell/LocalTest/vendor/persistent
+ls ./
+readfile /home/shane/working/haskell/LocalTest/vendor/persistent/sources.txt
+cd /home/shane/working/haskell/LocalTest/vendor/persistent/persistent-mongoDB
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/persistent
+cd /home/shane/working/haskell/LocalTest/vendor/persistent/persistent-mysql
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/persistent
+cd /home/shane/working/haskell/LocalTest/vendor/persistent/persistent-postgresql
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/persistent
+cd /home/shane/working/haskell/LocalTest/vendor/persistent/persistent-sqlite
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/persistent
+cd /home/shane/working/haskell/LocalTest/vendor/persistent/persistent-template
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/persistent
+cd /home/shane/working/haskell/LocalTest/vendor/persistent/persistent
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/persistent
+cd /home/shane/working/haskell/LocalTest/vendor/persistent/pool-conduit
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/persistent
+cd /home/shane/working/haskell/LocalTest/
+cd /home/shane/working/haskell/LocalTest/vendor/shakespeare
+echo 'git fetch origin'
+git fetch origin
+cd /home/shane/working/haskell/LocalTest/
+cd /home/shane/working/haskell/LocalTest/vendor/shakespeare
+echo 'git checkout master'
+git checkout master
+echo 'git submodule foreach git pull origin master'
+git submodule foreach git pull origin master
+cd /home/shane/working/haskell/LocalTest/
+cd /home/shane/working/haskell/LocalTest/vendor/shakespeare
+ls ./
+readfile /home/shane/working/haskell/LocalTest/vendor/shakespeare/sources.txt
+cd /home/shane/working/haskell/LocalTest/vendor/shakespeare/servius
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/shakespeare
+cd /home/shane/working/haskell/LocalTest/vendor/shakespeare/hamlet
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/shakespeare
+cd /home/shane/working/haskell/LocalTest/vendor/shakespeare/shakespeare-i18n
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/shakespeare
+cd /home/shane/working/haskell/LocalTest/vendor/shakespeare/shakespeare-text
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/shakespeare
+cd /home/shane/working/haskell/LocalTest/vendor/shakespeare/shakespeare-js
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/shakespeare
+cd /home/shane/working/haskell/LocalTest/vendor/shakespeare/shakespeare-css
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/shakespeare
+cd /home/shane/working/haskell/LocalTest/vendor/shakespeare/shakespeare
+ls ./
+cd /home/shane/working/haskell/LocalTest/vendor/shakespeare
+cd /home/shane/working/haskell/LocalTest/
+cd /home/shane/working/haskell/LocalTest/../yesodweb/yesod/yesod-test/
+echo 'not a directory: /home/shane/working/haskell/LocalTest/../yesodweb/yesod/yesod-test/'
+exit 1
+cd /home/shane/working/haskell/LocalTest
