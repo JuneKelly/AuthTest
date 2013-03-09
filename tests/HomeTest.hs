@@ -36,6 +36,14 @@ homeSpecs =
       assertEqual "user table empty" 0 $ L.length users
 -}
 
+authSpecs :: Specs
+authSpecs =
+  describe "test authentication" $ do
+    
+    it "should block access to profile page" $ do
+      needsLogin GET "/profile"
+    
+
 dataSetup :: Specs
 dataSetup =
   describe "setup" $ do
