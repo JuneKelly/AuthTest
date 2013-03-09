@@ -48,7 +48,7 @@ authSpecs =
       doLogin "testuser" "password"
       get_ "/profile"
       statusIs 200
-      --bodyContains "testuser"
+      bodyContains "testuser"
       
 
 dataSetup :: Specs
