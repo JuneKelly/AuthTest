@@ -106,3 +106,4 @@ test-suite test
                  , bytestring
                  , wai-test
                  , yesod-auth
+                 , yesod

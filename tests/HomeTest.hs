@@ -3,6 +3,7 @@ module HomeTest
     ( homeSpecs
     , dataSetup
     , dataTearDown
+    , authSpecs
     ) where
 
 import TestImport
@@ -42,7 +43,13 @@ authSpecs =
     
     it "should block access to profile page" $ do
       needsLogin GET "/profile"
-    
+
+    it "should show profile for logged in user" $ do
+      doLogin "testuser" "password"
+      get_ "/profile"
+      statusIs 200
+      --bodyContains "testuser"
+      
 
 dataSetup :: Specs
 dataSetup =

@@ -18,4 +18,5 @@ main = do
     app <- toWaiAppPlain foundation
     runTests app (connPool foundation) dataTearDown
     runTests app (connPool foundation) dataSetup
+    runTests app (connPool foundation) authSpecs
     runTests app (connPool foundation) homeSpecs
